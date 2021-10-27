@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+  margin: 0;
+  background: lightgray;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fefefe;
+}
+.container {
+  position: relative;
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 1000px;
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotate360 60s infinite forwards linear;
+}
+.carousel__face {
+  position: absolute;
+  width: 300px;
+  height: 187px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+  display: flex;
+}
+
+span {
+  margin: auto;
+  color: #fefefe;
+  font-size: 2rem;
+}
+
+.carousel__face:nth-child(1) {
+  background-image: url("https://p1.pxfuel.com/preview/296/733/113/guava-fruits-guava-picking-guava-farming.jpg");
+  transform: rotateY(  0deg) translateZ(430px); }
+.carousel__face:nth-child(2) {
+  background-image: url("https://img.cybercook.com.br/receitas/257/goiabada-cascao-2-840x480.jpeg?q=75");
+    transform: rotateY( 40deg) translateZ(430px); }
+.carousel__face:nth-child(3) {
+  background-image: url("https://t2.rg.ltmcdn.com/pt/images/3/1/8/img_rocambole_de_goiaba_3813_600_square.jpg");
+  transform: rotateY( 80deg) translateZ(430px); }
+.carousel__face:nth-child(4) {
+  background-image: url("https://i.pinimg.com/736x/20/24/9e/20249e3433086552ce989591f549ce7f.jpg");
+  transform: rotateY(120deg) translateZ(430px); }
+.carousel__face:nth-child(5) {
+  background-image: url("https://img.imageboss.me/kitchenaid/cdn/animation:true/wp-content/uploads/2016/09/goiabada3.jpg");
+ transform: rotateY(160deg) translateZ(430px); }
+.carousel__face:nth-child(6) {
+  background-image: url("https://haraldfoodservice.com.br/wp-content/uploads/2019/09/imagem-destaque-blog-lancamento-goiaba.jpg");
+ transform: rotateY(200deg) translateZ(430px); }
+.carousel__face:nth-child(7) {
+  background-image: url("https://img.cybercook.com.br/receitas/357/bolo-de-goiaba-no-liquidificador-1.jpeg");
+ transform: rotateY(240deg) translateZ(430px); }
+.carousel__face:nth-child(8) {
+  background-image: url("http://jornalcinforme.com.br/wp-content/uploads/2018/06/brigadeiro-boleo-quiejo.jpg");
+  transform: rotateY(280deg) translateZ(430px); }
+.carousel__face:nth-child(9) {
+  background-image: url("https://lh3.googleusercontent.com/proxy/cZp7rDhlAqAVae24rhxtqpTUjZjcI56ysW1KmJCeI1hzQWFnV_kIJxnqhi0xJeLo-b7KW_Foj-wEPOBad9vGnlafCxfblykBVp72JpCAWNAm5iWNfdq84VfCflQzaEfa8BzsRqWw-KwNbIDBb42WWm6Z7PFwBoBXNnCQlCwMpzJHTFzvpI7mruE4NY9Fw7czm8lMdA");
+  transform: rotateY(320deg) translateZ(430px); }
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+ .container-fluid {
+     margin-top: 101px;
+     color: rgb(72, 173, 115) !important
+ }
+
+ .card {
+     background-color: #F8F9FB !important
+ }
+
+ p {
+     font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important;
+     display: fkex
+ }
+
+ h3 {
+     font-size: calc(24px + (30 - 24) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .social {
+     font-size: 21px !important
+ }
+
+ .color-text {
+     color: #757575 !important
+ }
+
+ button {
+     font-size: calc(12px + (13 - 12) * ((100vw - 360px) / (1600 - 320))) !important;
+     background-color: #69c969 !important;
+     padding-left: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important;
+     padding-right: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important;
+     padding-top: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+     padding-bottom: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ button:focus {
+     -moz-box-shadow: none !important;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+     outline-width: 0
+ }
+
+ footer {
+     color: #caced1 !important
+ }
+
+ li {
+     margin-top: 20px;
+     margin-bottom: 20px
+ }
+
+ .Careers {
+     cursor: pointer;
+     color: #25e51e
+ }
+
+ .row-1 {
+     background-color: #0e1f08 !important
+ }
+
+ .row-2 {
+     background-color: #1d3a22 !important
+ }
